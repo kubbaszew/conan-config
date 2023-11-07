@@ -1,6 +1,5 @@
 include(default)
 
-
 [settings]
 compiler.cppstd=17
 curaengine:compiler.cppstd=20
@@ -16,7 +15,3 @@ dulcificum:compiler.cppstd=20
 {% elif compiler == 'apple-clang' %}compiler.libcxx=libc++
 {% elif compiler == 'Visual Studio' %}compiler.toolset=v143
 {% endif %}
-[options]
-[env]
-
-[conf]
